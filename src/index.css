@@ -1,0 +1,13 @@
+html{
+  font-size:80%;
+}
+body {
+  margin: 0;
+  font-family:  'Helvetica Neue', sans-serif;
+  color:#fff;
+  overflow: hidden;
+  display: block;
+  background-color:#000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,44 @@
+$primary-color: #ffa801;
+$page-color: #000;
+$secondary-color: #fff;
+$second-text:#ced6e0;
+
+.logo-container{
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+
+    
+    cursor: pointer;
+    svg{
+      width: 100%;
+      height: auto;
+      bottom: 0;
+        
+    }
+    .svg-container{
+      animation: rotation 8s infinite linear;
+      
+  }
+  
+  
+  @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+    &:hover{
+      animation: fadeIn 1s;
+    }
+}
